@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Memory Game</title>
+</head>
+
+<body>
+
+    <div class="start-button">
+        <span>Start Game</span>
+    </div>
+
+    <div class="container">
+        <div class="text">
+            <div class="name">
+                Hello: <span></span>
+            </div>
+            <div class="wrong">
+                Wrong Tries: <span>0</span>
+            </div>
+        </div>
+        <div class="memory-boxs">
+            <div class="game-box" data-club="benfica">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (1).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="benfica">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (1).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="leicester">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (2).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="leicester">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (2).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="everton">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (3).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="everton">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (3).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="barchalona">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (4).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="barchalona">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (4).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="porto">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (5).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="porto">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (5).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="inter">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (6).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="inter">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (6).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="city">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (7).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="city">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (7).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="paris">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (8).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="paris">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (8).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="ryal">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (9).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="ryal">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (9).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="sivia">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (10).png" alt="">
+                </div>
+            </div>
+            <div class="game-box" data-club="sivia">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="./photo/photo (10).png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio src="./audio/Untitled.wav" class="seccess" preload="auto"></audio>
+    <audio src="./audio/failure-drum-sound-effect-2-7184.mp3" class="faile" preload="auto"></audio>
+
+    <audio src="./audio/sucession-theme-song.mp3" preload="auto" class="seccession"></audio>
+
+    <div class="celebrate">
+        <div class="celebrate-text">Congratulations!
+            <br> you have completed the task successfully
+        </div>
+        <div class="celebrate-button">New game</div>
+    </div>
+    <div class="game-over">
+        <p>Game Over</p>
+        <div class="over-button">New game</div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
